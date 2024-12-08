@@ -1,8 +1,22 @@
-# React + Vite
+# Rick and Morty Character Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to explore characters from the Rick and Morty universe using the [Rick and Morty API](https://rickandmortyapi.com/).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display characters in a responsive table format
+- Filter characters by:
+  - Name
+  - Status (Alive, Dead, Unknown)
+  - Species (Human, Alien, etc.)
+  - Gender (Male, Female, Genderless, Unknown)
+- Pagination support
+- Detailed character view on row click
+- Mobile-responsive design
+
+## Technologies Used
+
+- React 18
+- Axios for API calls
+- Vite as build tool
+- CSS for styling
