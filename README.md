@@ -2,6 +2,8 @@
 
 A React-based web application that allows users to explore characters from the Rick and Morty universe using the [Rick and Morty API](https://rickandmortyapi.com/).
 
+Live : https://massive-bio-case.vercel.app/
+
 ## Features
 
 - Display characters in a responsive table format
