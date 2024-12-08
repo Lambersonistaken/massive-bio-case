@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,4 +42,100 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filter-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.character-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.character-table th,
+.character-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.character-row {
+  cursor: pointer;
+}
+
+.character-row:hover {
+  background-color: #3d3d3d;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.character-detail {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.character-detail img {
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.filter-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-input,
+.filter-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.filter-select {
+  background-color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+.filter-select:hover {
+  border-color: #646cff;
+}
+
+@media (max-width: 768px) {
+  .filter-group {
+    flex-direction: column;
+  }
+
+  .filter-input,
+  .filter-select {
+    width: 100%;
+  }
 }
